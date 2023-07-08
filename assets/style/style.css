@@ -3,4 +3,8 @@ header {
   font-family: Merriweather;
 }
 
+menu.categorias ul {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
