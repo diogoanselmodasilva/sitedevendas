@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg, #E9A2Ff, #48A3FF);
+  background-repeat: no-repeat;
+}
+body .destaque, html .destaque {
+  font-family: Merriweather;
+  text-decoration: italic;
+  font-size: 40px;
+}
+body header, html header {
+  background-color: #E9A2Ff;
+}
+body h1, html h1 {
+  text-align: center;
+  background: linear-gradient(to top, #E9A2Ff, #E700B0);
+}
+body p, html p {
+  text-align: center;
+  background: greyscale(#E700B0);
+  font-family: Merriweather;
+  text-decoration: italic;
+  font-size: 14px;
+}
+body div.logo, html div.logo {
+  width: 80px;
+  height: 90px;
+  margin: 5px;
+  background: #48A3FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  transform: translate(-100%, -100%);
+  transition: 1s;
+}
+body div.logo:hover, html div.logo:hover {
+  cursor: pointer;
+  color: white;
+}
+body .navbar .navbar-homepage, html .navbar .navbar-homepage {
+  display: flex;
+  justify-content: space-around;
+}
+body .navbar .navbar-homepage .navbar-item, html .navbar .navbar-homepage .navbar-item {
+  list-style-type: none;
+  font-size: 16px;
+}
+body .navbar .navbar-homepage a, html .navbar .navbar-homepage a {
+  text-decoration: none;
+  color: white;
+  transition: 0.7s;
+}
+body .navbar .navbar-homepage a:hover, html .navbar .navbar-homepage a:hover {
+  color: #b30A66;
+}
+body menu.categorias, html menu.categorias {
+  background: linear-gradient(to top, #48A3FF, #E700B0, #E9A2Ff);
+  background-repeat: no-repeat;
+}
+body menu.categorias ul#menuCategorias, html menu.categorias ul#menuCategorias {
+  display: none;
+}
+body menu.categorias ul#menuCategorias li, html menu.categorias ul#menuCategorias li {
+  text-indent: 20px;
+}
+body menu.categorias ul#menuCategorias li a, html menu.categorias ul#menuCategorias li a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 8px 0 8px 0;
+  font-size: 16px;
+  transition: 0.7s;
+}
+body menu.categorias ul#menuCategorias li a:hover, html menu.categorias ul#menuCategorias li a:hover {
+  color: #b30A66;
+}
+body menu.categorias #clickMenu, html menu.categorias #clickMenu {
+  color: #E9A2Ff;
+  transition: 0.5s;
+}
+body menu.categorias #clickMenu:hover, html menu.categorias #clickMenu:hover {
+  color: #610020;
+  cursor: pointer;
+}
+body div.redes-sociais, html div.redes-sociais {
+  width: 40px;
+  display: flex;
+  margin: 5px;
+  margin-top: 0;
+  justify-content: flex-start;
+}
+body div.redes-sociais li, html div.redes-sociais li {
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 0;
+}
+body div.redes-sociais li:hover, html div.redes-sociais li:hover {
+  cursor: pointer;
+}
+body div.search, html div.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
