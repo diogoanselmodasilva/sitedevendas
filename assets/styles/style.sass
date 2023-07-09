@@ -2,9 +2,124 @@
 
 @import "./_variables.sass"
 
-header
-    font-family: $font-padrao
+*
+    margin: 0
+    padding: 0
 
-menu.categorias
-    ul
-       display: none
+body, html
+    width: 100vw
+    height: 100vh
+    background: linear-gradient(-45deg, $color-primary, $color-secundary)
+    background-repeat: no-repeat
+
+    .destaque
+        font-family: $font-padrao
+        text-decoration: italic
+        font-size: 40px
+
+    header
+        background-color: $color-primary
+
+    h1
+        text-align: center
+        background: linear-gradient(to top, $color-primary, $color-tertiary)
+
+    p
+        text-align: center
+        background: greyscale($color-tertiary)
+        font-family: $font-padrao
+        text-decoration: italic
+        font-size: 14px
+
+    div.logo
+        width: 80px
+        height: 90px
+        margin: 5px
+        background: $color-secundary
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        border: 1px solid black
+        border-radius: 3px
+        transition: 1s
+
+        &:hover
+            cursor: pointer
+            color: white
+
+    .navbar
+        .navbar-homepage
+            display: flex
+            justify-content: space-around
+
+            .navbar-item
+                list-style-type: none
+                font-size: 16px
+           
+            a
+                text-decoration: none
+                color: white
+                transition: 0.7s
+
+                &:hover
+                    color: $color-quarter
+
+    menu.categorias
+        background: linear-gradient(to top,$color-secundary,$color-tertiary ,$color-primary)
+        background-repeat: no-repeat
+
+        ul#menuCategorias
+            display: none
+
+            li 
+                text-indent: 20px
+                
+                a
+                    color: whitesmoke
+                    text-decoration: none
+                    margin: 8px 0 8px 0
+                    font-size: 16px
+                    transition: 0.7s
+
+                    &:hover
+                        color: $color-quarter
+
+        #clickMenu
+            color: $color-primary
+            transition: .5s
+
+            &:hover
+                color: $color-five
+                cursor: pointer
+
+    div.redes-sociais
+        width: 40px
+        display: flex
+        margin: 5px
+        margin-top: 0
+        justify-content: flex-start
+
+        li
+            list-style-type: none
+            margin: 10px
+            margin-top: 0
+
+            &:hover
+                cursor: pointer
+
+    div.search
+        display: flex
+        justify-content: flex-end
+        margin-top: 0 
+                
+
+
+
+           
+
+
+
+
+                    
+                    

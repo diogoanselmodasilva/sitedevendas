@@ -7,63 +7,65 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Loja de itens</title>
 </head>
-<h2>
     <header>
         <h1 class="destaque">Shop</h1>
+        <div id="planodefundo"></div>
         <p>A loja mais próxima de você</p>
-        <a href="index.html">
-            <div class="logo">
-                    <i class="fa fa-cart-plus logo-icon" id="logo"></i>
-                    <p class="logo-name">Compre mais</p>
-            </div>
-        </a>
+        <div class="logo">
+            <i class="fa fa-cart-plus" id="logo" style="font-size: 40px;"></i>
+            <p class="logo-name">Shop</p>
+        </div>
         <nav class="navbar">
-            <ul class="navbar homepage">
-                <li class="navbar-item"><a href="#">Home</a></li>
-                <li class="navbar-item"><a href="#">Novidades</a></li>
-                <li class="navbar-item"><a href="#">Promoção</a></li>
-                <li class="navbar-item"><a href="#">Fale conosco</a></li>
+            <ul class="navbar-homepage">
+                <li class="navbar-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li class="navbar-item"><a href="#"><i class="fa fa-user"></i> Login</a></li>
+                <li class="navbar-item"><a href="#"><i class="fa fa-tag"></i> Promoção</a></li>
+                <li class="navbar-item"><a href="#"><i class="fa fa-phone"></i> Fale conosco</a></li>
             </ul>
         </nav>
         <menu class="categorias" id="menu">
             <ul id="menuCategorias">
-                <li>Camisas</li>
-                <li>Calças</li>
-                <li>Sapatos</li>
-                <li>Casacos</li>
-                <li>Vestidos</li>
-                <li>Roupa de praia</li>
-                <li>Maquiagem</li>
-                <li>Acessórios</li>
+                <li><a href="#">Camisas</a></li>
+                <li><a href="#">Calças</a></li>
+                <li><a href="#">Sapatos</a></li>
+                <li><a href="#">Casacos</a></li>
+                <li><a href="#">Vestidos</a></li>
+                <li><a href="#">Roupa de praia</a></li>
+                <li><a href="#">Maquiagem</a></li>
+                <li><a href="#">Verão</a></li>
+                <li><a href="#">Outono</a></li>
+                <li><a href="#">Inverno</a></li>
+                <li><a href="#">Primavera</a></li>
+                <li><a href="#">Acessórios</a></li>
             </ul>
             <i class="fa fa-bars" id="clickMenu"></i>
         </menu>
     </header>
     <div class="redes-sociais">
-        <li><i class="fa fa-whatsapp"></i></li>
-        <li><i class="fa fa-facebook"></i></li>
-        <li><i class="fa fa-linkedin"></i></li>
-        <li><i class="fa fa-instagram"></i></li>
-        <li><i class="fa fa-twitter"></i></li>
+        <li><i class="fa fa-whatsapp" id="icon-whatsapp"></i></li>
+        <li><i class="fa fa-facebook" id="icon-facebook"></i></li>
+        <li><i class="fa fa-linkedin" id="icon-linkedin"></i></li>
+        <li><i class="fa fa-instagram" id="icon-instagram"></i></li>
+        <li><i class="fa fa-twitter" id="icon-twitter"></i></li>
     </div>
-    <div class="serch">
+    <div class="search">
         <input type="text" name="text" id="textSearch" placeholder="Buscar...">
         <label for="textSearch"><i class="fa fa-search"></i></label>
     </div>
     <main>
-        <h2>Tendências que você esteja procurando</h2>
+        <h2 class="destaque">Tendências</h2>
         aqui sera o carrossel de imagens
-        <h2>camisas</h2>
+        <h2 class="destaque">camisas</h2>
         carrossel de camisas
         
-        <h2>Calças</h2>
+        <h2 class="destaque">Calças</h2>
         carrosel de Calças
-        <h2>Sapatos</h2>
+        <h2 class="destaque">Sapatos</h2>
         Sapatos
     </main>
 
     <aside>Baixe nosso aplicativo</aside>
-    imagem
+    <!-- <img src="assets/midia/lojaonline.jpg" alt="aplicativo da loja"> -->
 
     <footer></footer>
     <script src="assets/scripts/script.js"></script>
